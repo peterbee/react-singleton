@@ -79,4 +79,4 @@ export default {
 
 ## Questions & Issues
 
-Please [Please create an issue on Github](https://github.com/peterbee/react-singleton/issues) so I can help and so we can make Singleton better!
+[Please ask questions and report problems in Github](https://github.com/peterbee/react-singleton/issues) so I can help and so we can make Singleton better!
