@@ -5,11 +5,9 @@ A React higher-order component that synchronizes state across all instances of i
 
 ### How to use Singleton
 ```
-devDependencies: {
-  '@peterbee/react-singleton': 'git+https://github.com/peterbee/react-singleton.git'
-}
+npm install --save-dev https://github.com/peterbee/react-singleton.git
 ```
-:warning: This is not the same as the npm package 'react-singleton'
+:warning: _To avoid confusion: this is not the same as the 'react-singleton' module available via npm_
 
 ```
 import React from 'react`;
@@ -22,7 +20,7 @@ class MyStatefulComponent extends React.Component {
 export default AsSingleton(MyStatefulComponent);
 ```
 
-:white_check_mark: That's it.  That is the magic of Singleton.  There isn't anything else to learn.  You can write your components the same way you always do –– updating local state to rerender –– and now every instance of that component rerenders.  No more need to trace through complex call stakcs and data stores to figure out which action needs to be dispatched or which listeners are subscribed to which channels.  Life can be relaxing and fun again.
+:white_check_mark: That's it.  That is the magic of Singleton.  There isn't anything else to learn.  You can write your components the same way you always do –– updating local state to rerender –– and now every instance of that component rerenders.  No more need to trace through complex call stacks and data stores to figure out which action needs to be dispatched or which listeners are subscribed to which channels.  Life can be relaxing and fun again.
 
 (Why do we tend to make life so much harder than it has to be?)
 
