@@ -10,8 +10,8 @@ npm install --save-dev https://github.com/peterbee/react-singleton.git
 :warning: _To avoid confusion: this is not the same as the 'react-singleton' module available via npm_
 
 ```
-import React from 'react`;
-import AsSingleton from '@peterbee/react-singleton`;
+import React from 'react';
+import AsSingleton from '@peterbee/react-singleton';
 
 class MyStatefulComponent extends React.Component {
   // ... define your stateful component here
