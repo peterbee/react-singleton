@@ -15,7 +15,7 @@ npm install --save-dev https://github.com/peterbee/react-singleton.git
 :warning: _To avoid confusion: this is not the same as the 'react-singleton' module available via npm_
 
 ```
-import createSingleton from '@peterbee/react-singleton`;
+import createSingleton from '@peterbee/react-singleton';
 
 const [useMyData, updateMyData] = createSingleton('initial value');
 
@@ -33,7 +33,7 @@ function MyComponent() {
 Since Singleton uses React Hooks, it can only be used in function components.  But it is easy to add it to class components too:
 
 ```
-import createSingleton from '@peterbee/react-singleton`;
+import createSingleton from '@peterbee/react-singleton';
 
 const [useMyData, updateMyData] = createSingleton('initial value');
 
@@ -71,7 +71,7 @@ Create the hook in a file that owns account data:
 
 ```
 // useAccount.js
-import createSingleton from '@peterbee/react-singleton`;
+import createSingleton from '@peterbee/react-singleton';
 
 const [useAccount, updateAccount] = createSingleton(accountObject);
 
