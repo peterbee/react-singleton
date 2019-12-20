@@ -1,14 +1,12 @@
 {
   "name": "@peterbee/react-singleton",
   "version": "1.0.0",
-  "description": "A React higher-order component that synchronizes state across all instances of its wrapped component",
-  "main": "dist/singleton.min.js",
+  "description": "A React hook that synchronizes state across all instances of a component",
+  "main": "dist/bundle.js",
   "scripts": {
-    "build": "cross-env BABEL_ENV=es NODE_ENV=production rollup -c -o dist/singleton.min.js",
+    "build": "rollup -c",
     "start": "start-storybook -p 8080 -c ./.storybook",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack",
-    "webpack-p": "webpack -p"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,15 +19,8 @@
   },
   "homepage": "https://github.com/peterbee/react-singleton#readme",
   "devDependencies": {
-    "@storybook/react": "^3.2.16",
-    "babel-core": "^6.24.1",
-    "cross-env": "^5.1.4",
-    "react": "^16.3.1",
-    "rollup": "^0.57.1",
-    "rollup-plugin-babel": "^3.0.3",
-    "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-replace": "^2.0.0",
-    "rollup-plugin-uglify": "^3.0.0",
-    "webpack": "^3.11.0"
+    "@storybook/react": "^4",
+    "react": "^16.8",
+    "rollup": "^1.27.13"
   }
 }
